@@ -1,0 +1,21 @@
+data:
+  null_drop_threshold_pct: 70.0
+  eda_sample_rows: 10000
+  correlation_drop_threshold: 0.80
+
+rag:
+  retrieval_k: 4
+
+model:
+  min_improvement_over_baseline: 0.02
+  overfit_gap_medium: 0.15
+  overfit_gap_high: 0.25
+  perfect_accuracy_threshold: 0.98
+
+task_detection:
+  low_confidence_threshold: 0.65
+
+paths:
+  output_dir: outputs
+  cache_dir: cache
+  mlflow_tracking_uri: mlruns
