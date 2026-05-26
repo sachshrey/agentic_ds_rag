@@ -1,2 +1,13 @@
 .DS_Store
+*.py[cod]
+__pycache__/
+
+.env
+.venv/
+
+cache/
+outputs/
+mlruns/
+catboost_info/
+
 agentic_ds_rag_claude_review.zip
